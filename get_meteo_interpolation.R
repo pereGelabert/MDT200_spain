@@ -58,7 +58,7 @@ buffer_stations <- 50000
 buffer_interpolation <- 500
 
 # Load AOI (Area of Interest)
-AOI <- st_read("C:/Users/pjgel/Downloads/localització/Nested_basins-v2.shp") %>% 
+AOI <- st_read("path_to_AOI") %>% 
   st_transform(st_crs(4326)) %>% 
   summarise()
 
