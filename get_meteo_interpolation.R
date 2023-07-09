@@ -17,7 +17,7 @@ first_day <- "2011-01-01"
 last_day <- "2013-12-31"
 temporal_resol <- "daily" # "daily" or "monthly"
 resol <- 1000
-save_path <- setwd("C:/Users/pjgel/Desktop/")
+save_path <- setwd("path to working dir")
 
 # At first time set API keys using keyring pkg.
 # install.packages('keyring')
